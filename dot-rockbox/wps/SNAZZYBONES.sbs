@@ -23,7 +23,7 @@
 %Fl(3,15-VictorMono-Regular.fnt)
 %Fl(4,22-VictorMono-SemiBold.fnt)
 %Fl(5,29-VictorMono-SemiBold.fnt)
-%Fl(6,72-VictorMono-SemiBold.fnt)
+%Fl(6,64-VictorMono-SemiBold.fnt)
 
 #--- Preload Images ---#
 %xl(PBI,Playback_Icons.bmp,5)
@@ -112,7 +112,7 @@
 
 #__Progress Bar
 %Vl(curInfo,-35,211,15,15,-)
-%ar%?if(%px, >, 8)<%?if(%px, >, 17)<%?if(%px, >, 25)<%?if(%px, >, 33)<%?if(%px, >, 42)<%?if(%px, >, 50)<%?if(%px, >, 58)<%?if(%px, >, 67)<%?if(%px, >, 75)<%?if(%px, >, 83)<%?if(%px, >, 92)<%xd(Pl)|%xd(Pk)>|%xd(Pj)>|%xd(Pi)>|%xd(Ph)>|%xd(Pg)>|%xd(Pf)>|%xd(Pe)>|%xd(Pd)>|%xd(Pc)>|%xd(Pb)>|%xd(Pa)>
+%ar%?if(%px, >, 8)<%?if(%px, >,17)<%?if(%px, >, 25)<%?if(%px, >, 33)<%?if(%px, >, 42)<%?if(%px, >, 50)<%?if(%px, >, 58)<%?if(%px, >, 67)<%?if(%px, >, 75)<%?if(%px, >, 83)<%?if(%px, >, 92)<%xd(Pl)|%xd(Pk)>|%xd(Pj)>|%xd(Pi)>|%xd(Ph)>|%xd(Pg)>|%xd(Pf)>|%xd(Pe)>|%xd(Pd)>|%xd(Pc)>|%xd(Pb)>|%xd(Pa)>
 
 #__Next Up
 %Vl(nextInfo,42,211,22,20,3)
