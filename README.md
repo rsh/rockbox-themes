@@ -25,6 +25,7 @@ These are not required to use this theme, but are settings I've found to be help
 
 - [ ] Put screenshots in the README.
 - [ ] Once the theme stabilizes, submit it to the Rockbox website.
+- [ ] The smallest text in the theme is fuzzy. Find an alternative font to replace 15-VictorMono that looks sharper, doesn't require anti-aliasing at such a small size.
 
 
 ## WPS
