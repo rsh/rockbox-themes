@@ -4,13 +4,15 @@ A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox). I use it on my
 
 My goals for this theme are:
 - The screen is as **simple** and **calm** as possible, while still displaying necessary information.
-- The "Now Playing" screen is especially **simple** and **calm**. When listening, the "Now Playing" page is the listener's refuge. It should not even include the current time.
+- The "Now Playing" screen is especially **simple** and **calm**. When listening, it is the listener's refuge. It should not even include the current time.
+
 
 **Simple**: include only what is necessary, laid out in the cleanest possible way.
+
 **Calm**: Animation and movement should be minimized.
 
 
-This theme is based on two existing themes, SNAZZY by Chris Graves, and BONES Chuck Lardo. See `LICENSES.md` for more information.
+This theme is based on two great themes, SNAZZY by Chris Graves, and BONES Chuck Lardo. See `LICENSES.md` for more information.
 
 # Recommended settings
 

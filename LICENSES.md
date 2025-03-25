@@ -5,9 +5,9 @@
 The SBS is based on SNAZZY (v3.03), licensed under CC-BY-SA 4.0.
 
 SNAZZY is copyright Phil Graves and is based on:
-    - original theme SPAZZ by Chuck Lardo
-    - spinoff theme SNAZZ/SNAZZ2 by Jihoon Kim
-    - some elements & code altered from adwaitapod by evan Dook
+- original theme SPAZZ by Chuck Lardo
+- spinoff theme SNAZZ/SNAZZ2 by Jihoon Kim
+- some elements & code altered from adwaitapod by evan Dook
 
 
 ## BONES
