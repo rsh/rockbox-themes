@@ -2,7 +2,7 @@
 
 ## SNAZZY
 
-The SBS is based on SNAZZY (v3.03), licensed under CC-BY-SA 4.0.
+The SBS (Select Browser Screen) is based on SNAZZY (v3.03), licensed under CC-BY-SA 4.0.
 
 SNAZZY is copyright Phil Graves and is based on:
 - original theme SPAZZ by Chuck Lardo
@@ -12,7 +12,7 @@ SNAZZY is copyright Phil Graves and is based on:
 
 ## BONES
 
-The WPS is based on BONES by Chuck Lardo, licensed under CC-BY-SA 4.0.
+The WPS (While Playing Screen) is based on BONES by Chuck Lardo, licensed under CC-BY-SA 4.0.
 
 ## Victor Mono
 

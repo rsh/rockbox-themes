@@ -3,16 +3,26 @@
 A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox). I use it on my iPod.
 
 My goals for this theme are:
-- The screen is as **simple** and **calm** as possible, while still displaying necessary information.
+- It is as **simple** and **calm** as possible.
 - The "Now Playing" screen is especially **simple** and **calm**. When listening, it is the listener's refuge. It should not even include the current time.
 
 
-**Simple**: include only what is necessary, laid out in the cleanest possible way.
-
+**Simple**: include only what is necessary, laid out in the cleanest possible way.  
 **Calm**: Animation and movement should be minimized.
 
 
-This theme is based on two great themes, SNAZZY by Chris Graves, and BONES Chuck Lardo. See `LICENSES.md` for more information.
+## Installation
+
+1. [Install Rockbox](https://www.rockbox.org/download/)
+1. Download this repository and move the contents of `dot-rockbox` into the `.rockbox` directory on your music player.
+
+## Inspiration and Credit
+
+SNAZZYBONES is based on two great themes:
+- SNAZZY by Chris Graves
+- BONES Chuck Lardo
+
+See `LICENSES.md` for more information.
 
 # Recommended settings
 
