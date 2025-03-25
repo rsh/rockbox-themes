@@ -1,0 +1,137 @@
+#
+# SNAZZYBONES v0.5
+# by Rayhan Hasan
+# 2025
+#
+# License: CC-BY-SA 4.0
+#
+# Takes liberally from SNAZZY by Phil Graves and BONES by Chuck Lardo
+# Tested on iPod Video 5.5Gen
+# Target resolution: 320x240
+# Last updated: 03/25/2025
+
+#
+#__WPS File
+#
+#
+#__Hide The Status Bar
+%wd
+#
+#__Preload Fonts
+%Fl(2,15-VictorMono-Regular.fnt)
+%Fl(3,22-VictorMono-SemiBold.fnt)
+%Fl(4,29-VictorMono-SemiBold.fnt)
+%Fl(5,47-VictorMono-SemiBold.fnt)
+#
+#__Preload Images
+%xl(PBB,pb_back.bmp,0,0)
+%xl(PB,pb.bmp,0,0)
+%xl(VBB,vb_back.bmp,0,0)
+%xl(VB,vb.bmp,0,0)
+%xl(BBB,bb_back.bmp,0,0)
+%xl(BB,bb.bmp,0,0)
+%xl(T,stop_icon.bmp,0,0)
+%xl(L,play_icon.bmp,0,0)
+%xl(Z,pause_icon.bmp,0,0)
+#
+#
+#__Show Main Display unless Hold Switch is on
+%?mh<%Vd(holdScreen)|%Vd(mainDisplay)>
+#
+#
+###__Main Display__###
+#
+#__Clear Screen
+%Vl(mainDisplay,0,0,320,240,-)
+#
+#__Track Number
+%Vl(mainDisplay,30,40,120,-,2)
+%alTRACK %in
+#
+#__Shuffle
+%Vl(mainDisplay,-110,40,80,-,2)
+%ac%?ps<SHUFFLE ON>%Vs(invert)
+#
+#__Track Title
+%Vl(mainDisplay,30,60,260,-,4)
+%s%it
+#
+#__Artist/Album
+%Vl(mainDisplay,30,90,260,-,3)
+%s%t(6)%ia;%s%t(6)%id
+#
+#__File Type
+%Vl(mainDisplay,30,120,60,-,2)
+%?fc<MP1|MP2|MP3|AIFF|WAV|VORBIS|FLAC|MPC|A52|WAVPAC|ALAC|AAC|SHORTEN|SID|ADX|NSF|SPEEX|SPC|APE|WMA|?>
+#
+#__Repeat
+%Vl(mainDisplay,170,120,100,-,2)
+%ar%?mm<|REPEAT|REPEAT|REPEAT|REPEAT> %?mm<|ALL|ONE|SHUFFLE|A-B>
+#
+#__Play/Pause Icons
+%Vl(mainDisplay,-41,122,11,11,-)
+%?mp<%xd(T)|%xd(L)|%xd(Z)>
+#
+#__Volume Bar
+%Vl(mainDisplay,30,145,-,-,-)
+%pv(0,0,220,11,VB,backdrop,VBB)
+#
+#__Volume Text
+%Vl(mainDisplay,250,143,40,-,2)
+%ar%pvdb
+#
+#__Track Progress Bar
+%Vl(mainDisplay,30,165,-,-,-)
+%pb(0,0,260,21,PB,backdrop,PBB)
+#
+#__Time Elapsed
+%Vl(mainDisplay,30,190,60,15,2)
+%al%pc
+#
+#__Time Total
+%Vl(mainDisplay,-90,190,60,15,2)
+%ar%pt
+#
+#
+###__Hold Screen__###
+#
+#__Clear Screen
+%Vl(holdScreen,0,0,320,240,-)
+#
+#
+#__Time
+%Vl(holdScreen,30,70,160,60,5)
+%?cf<%cH|%cI>:%cM
+#
+#__xxx
+%Vl(holdScreen,-110,100,80,22,3)
+%ar%?cf<xxx|%cP>
+#
+#__Line
+%Vl(holdScreen,30,155,260,1,-)
+%dr(0,0,260,1)
+#
+#__Battery Label
+%Vl(holdScreen,30,30,40,14,2)
+%alBATT
+#
+#__Battery Bar
+%Vl(holdScreen,70,32,180,11,-)
+%bl(0,0,180,11,BB,backdrop,BBB)
+#
+#__Battery %
+%Vl(holdScreen,250,30,40,14,2)
+%ar%bl%%
+#
+#__Song/Artist
+%Vl(holdScreen,30,170,260,15,2)
+%s%ia - %it
+#
+#__Play/Pause Icons
+%Vl(holdScreen,30,199,11,11,-)
+%?mp<%xd(T)|%xd(L)|%xd(Z)>
+#
+#__Time Remaining
+%Vl(holdScreen,-110,195,80,15,2)
+%ar-%pr
+#
