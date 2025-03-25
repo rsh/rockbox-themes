@@ -18,10 +18,10 @@
 %wd
 #
 #__Preload Fonts
-%Fl(2,15-ProFont.fnt)
-%Fl(3,22-ProFont.fnt)
-%Fl(4,29-ProFont.fnt)
-%Fl(5,47-ProFont.fnt)
+%Fl(2,15-VictorMono-Regular.fnt)
+%Fl(3,22-VictorMono-SemiBold.fnt)
+%Fl(4,29-VictorMono-SemiBold.fnt)
+%Fl(5,47-VictorMono-SemiBold.fnt)
 #
 #__Preload Images
 %xl(PBB,pb_back.bmp,0,0)

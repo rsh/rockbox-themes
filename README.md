@@ -12,12 +12,17 @@ My goals for this theme are:
 
 This theme is based on two existing themes, SNAZZY by Chris Graves, and BONES Chuck Lardo. See `LICENSES.md` for more information.
 
+# Recommended settings
+
+These are not required to use this theme, but are settings I've found to be helpful.
+- Scrollbar: On
+- Quick Menu Up/Down: Brightness
+
 
 # TODO
 
 - [ ] Put screenshots in the README.
 - [ ] Once the theme stabilizes, submit it to the Rockbox website.
-- [ ] 12-KodeMono-SemiBold.fnt is left over from SNAZZY's WPS but is no longer used. Would it be helpful for something? If not, delete it.
 
 
 ## WPS

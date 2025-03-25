@@ -17,10 +17,10 @@
 %wd
 
 #--- Preload Fonts ---#
-%Fl(3,15-KodeMono-SemiBold.fnt)
-%Fl(4,22-KodeMono-SemiBold.fnt)
-%Fl(5,29-KodeMono-SemiBold.fnt)
-%Fl(6,72-KodeMono-Bold.fnt)
+%Fl(3,15-VictorMono-Regular.fnt)
+%Fl(4,22-VictorMono-SemiBold.fnt)
+%Fl(5,29-VictorMono-SemiBold.fnt)
+%Fl(6,72-VictorMono-SemiBold.fnt)
 
 #--- Preload Images ---#
 %xl(PBI,Playback_Icons.bmp,5)
