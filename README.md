@@ -1,6 +1,6 @@
 # SNAZZYBONES: A Rockbox Theme
 
-A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox). I use it on my iPod.
+A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
 
 My goals for this theme are:
 - It is as **simple** and **calm** as possible.
@@ -19,16 +19,10 @@ My goals for this theme are:
 ## Inspiration and Credit
 
 SNAZZYBONES is based on two great themes:
-- SNAZZY by Chris Graves
-- BONES Chuck Lardo
+- [SNAZZY](https://themes.rockbox.org/index.php?themeid=3627&target=cowond2) by Chris Graves
+- [BONES](https://themes.rockbox.org/index.php?themeid=3579&target=cowond2) by Chuck Lardo
 
 See `LICENSES.md` for more information.
-
-# Recommended settings
-
-These are not required to use this theme, but are settings I've found to be helpful.
-- Scrollbar: On
-- Quick Menu Up/Down: Brightness
 
 
 # TODO
