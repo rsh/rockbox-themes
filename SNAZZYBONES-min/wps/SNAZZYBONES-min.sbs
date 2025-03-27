@@ -48,31 +48,27 @@
 
 #------------- Status Bar Layer -----------#
 
-#__Username - Max 8 characters anything more will scroll
-#%V(20,8,64,17,3)
-#%al%sROCKBOX
-
 #__Hold
-%V(8,8,81,17,3)
+%V(8,4,81,17,3)
 %?mh<%acLOCKED%Vs(invert)|>
 
 #__Repeat
-%V(220,11,21,12,-)
+%V(220,7,21,12,-)
 %?and(%if(%ps, =, 1),%or(%if(%mm, =, 1),%if(%mm, >, 1)),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(shuffle,%ps)>
 %?and(%if(%ps, =, 1),%or(%if(%mm, =, 1),%if(%mm, >, 1)),%or(%if(%fc, =, 4),%if(%fc, =, 5),%if(%fc, =, 7),%if(%fc, =, 11),%if(%fc, =, 13)))<%xd(shuffle,%ps)>
 %?and(%if(%ps, !=, 1),%if(%mm, >, 1),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(repeat,%mm,-1)>
 
 #__Shuffle
-%V(192,11,21,11,-)
+%V(192,7,21,11,-)
 %?and(%if(%ps, =, 1),%if(%mm, >, 1),%or(%if(%fc, =, 4),%if(%fc, =, 5),%if(%fc, =, 7),%if(%fc, =, 11),%if(%fc, =, 13)))<%xd(repeat,%mm)>
 %?and(%if(%ps, =, 1),%if(%mm, >, 1),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(repeat,%mm,-1)>
 
 #__Battery Text
-%V(265,8,35,20,3)
+%V(265,4,35,20,3)
 %ar%bl%%
 
 #__Battery Icon
-%V(248,11,21,11,-)
+%V(248,7,21,11,-)
 %?bp<%xd(Hl)|%?bl<%xd(Ha)|%xd(Hb)|%xd(Hc)|%xd(Hd)|%xd(He)|%xd(Hf)|%xd(Hg)|%xd(Hh)|%xd(Hi)|%xd(Hj)|%xd(Hk)>>
 
 #------------ Main Screen Layer -----------#
