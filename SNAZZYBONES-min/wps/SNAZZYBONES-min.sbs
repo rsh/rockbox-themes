@@ -53,7 +53,7 @@
 #%al%sROCKBOX
 
 #__Hold
-%V(20,8,81,17,3)
+%V(8,8,81,17,3)
 %?mh<%acLOCKED%Vs(invert)|>
 
 #__Repeat
@@ -95,36 +95,9 @@
 #%Vl(MainDisplay,-85,34,63,26,3)
 #%ar%t(5)%?cf<%cH:%cM|%?cl<1|2|3|4|5|6|7|8|9|10|11|12>:%cM%cp>;%ar%t(5)%cb %cd
 
-#__Top Line
-#%Vl(MainDisplay,20,57,280,1,-)
-#%dr(0,0,280,1)
-
 #__UI Viewport
-#%Vi(menuViewport,8,69,280,130,4)
-%Vi(menuViewport,0,29,-,-,1)
-#%Vi(-,10,10,300,220,4)
+%Vi(menuViewport,8,24,-8,-,4)
 
-#__Bottom Line
-#%Vl(MainDisplay,20,200,280,1,-)
-#%dr(0,0,280,1)
-
-#__Play/Pause Icons
-#%Vl(MainDisplay,20,214,21,11,-)
-#%?mp<%xd(PBI,1)|%xd(PBI,2)|%xd(PBI,3)|%xd(PBI,4)|%xd(PBI,5)>
-
-#__Now Playing
-#%Vl(curInfo,43,211,234,20,3)
-#%ac%s%?ia<%ia - %it|%fn>
-
-#__Progress Bar
-#%Vl(curInfo,-35,211,15,15,-)
-#%ar%?if(%px, >, 8)<%?if(%px, >,17)<%?if(%px, >, 25)<%?if(%px, >, 33)<%?if(%px, >, 42)<%?if(%px, >, 50)<%?if(%px, >, 58)<%?if(%px, >, 67)<%?if(%px, >, 75)<%?if(%px, >, 83)<%?if(%px, >, 92)<%xd(Pl)|%xd(Pk)>|%xd(Pj)>|%xd(Pi)>|%xd(Ph)>|%xd(Pg)>|%xd(Pf)>|%xd(Pe)>|%xd(Pd)>|%xd(Pc)>|%xd(Pb)>|%xd(Pa)>
-
-#__Next Up
-#%Vl(nextInfo,42,211,22,20,3)
-#%ac→%Vs(invert)
-#%Vl(nextInfo,64,211,235,20,3)
-#%ac%s%?Ia<%Ia%?It< - %It>|%Fn> %Vs(invert)
 
 #----------- Quick Screen Layer -----------#
 
