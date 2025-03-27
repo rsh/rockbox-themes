@@ -33,8 +33,9 @@ These are not required to use this theme, but are settings I've found to be help
 
 # TODO
 
-- [ ] Put screenshots in the README.
-- [ ] Once the theme stabilizes, submit it to the Rockbox website.
+- [ ] BUG: Quick Screen UI elements disappear when setting shuffle and repeat. This bug also exists in the upstream theme, SNAZZY.
+- [ ] If track number is not set, don't display "TRACK" text on WPS
+
 - [ ] The smallest text in the theme is fuzzy. Find an alternative font to replace 15-VictorMono that looks sharper, doesn't require anti-aliasing at such a small size.
     - Some options:
     - 7x13
@@ -45,6 +46,8 @@ These are not required to use this theme, but are settings I've found to be help
     - 12-ProFont
     - 12-Terminus
     - 14-Tenebre
+- [ ] Put screenshots in the README.
+- [ ] Once the theme stabilizes, submit it to the Rockbox website.
 
 
 ## WPS
