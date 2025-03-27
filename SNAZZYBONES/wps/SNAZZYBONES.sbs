@@ -96,7 +96,7 @@
 %dr(0,0,280,1)
 
 #__UI Viewport
-%Vi(menuViewport,20,69,280,130,4)
+%Vi(menuViewport,20,69,280,130,1)
 
 #__Bottom Line
 %Vl(MainDisplay,20,200,280,1,-)

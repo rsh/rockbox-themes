@@ -92,7 +92,7 @@
 #%ar%t(5)%?cf<%cH:%cM|%?cl<1|2|3|4|5|6|7|8|9|10|11|12>:%cM%cp>;%ar%t(5)%cb %cd
 
 #__UI Viewport
-%Vi(menuViewport,8,24,-8,-,4)
+%Vi(menuViewport,8,24,-8,-,1)
 
 
 #----------- Quick Screen Layer -----------#
