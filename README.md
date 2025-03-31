@@ -1,4 +1,6 @@
-# SNAZZYBONES: A Rockbox Theme
+# Rockbox Themes
+
+## SNAZZYBONES
 
 A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
 
@@ -6,9 +8,10 @@ My goals for this theme are:
 - It is as **simple** and **calm** as possible.
 - The "Now Playing" screen is especially **simple** and **calm**. When listening, it is the listener's refuge. It should not even include the current time.
 
-
 **Simple**: include only what is necessary, laid out in the cleanest possible way.  
 **Calm**: Animation and movement should be minimized.
+
+It comes in two flavors: SNAZZYBONES and SNAZZYBONES-min (minimalist). The main difference is that SNAZZYBONES uses the SBS from SNAZZY, and SNAZZYBONES-min uses the SBS from BONES.
 
 
 ## Installation
@@ -41,5 +44,3 @@ See `LICENSES.md` for more information.
 - [ ] Remove "ROCKBOX" text at top left, move "LOCKED" text to top left. This will align it with the physical hold switch on the iPod 5.5G.
 - [ ] Time and date: figure out how to have it stop switching between the two, and instead show either both or just the time. Perhaps put just the time at the top center.
 - [ ] Experiment with using the BONES SBS font size. SNAZZY and BONES both show five list items at a time, which seems like the minimum usable number. The iPod 4G shows six, and the iPod 5G stock firmware shows nine.
-
-
