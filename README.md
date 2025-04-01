@@ -1,20 +1,17 @@
 # SNAZZYBONES Rockbox theme
 
-<<<<<<< HEAD
 ## SNAZZYBONES
 
-**SNAZZYBONES-min**
 | SBS      | WPS      |
 |------------|-------------|
 | <img src="screenshots/min-sbs.png"> | <img src="screenshots/min-wps.png"> | 
-=======
 
 A minimalist, low-stimulus theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
 
 
 It comes in two flavors:
 - SNAZZYBONES-max (maximalist)
-- SNAZZYBONES-min (minimalist).
+- SNAZZYBONES-min (minimalist)
 
 ## Inspiration and Credit
 
