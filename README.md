@@ -7,7 +7,13 @@ It comes in two flavors:
 - SnazzyBones-Min (minimalist)
 
 
-
+|  Max     | Min      |
+|------------|-------------|
+| More clutter | Less clutter  |
+|------------|-------------|
+| More context | Less context   |
+|------------|-------------|
+| Fewer list rows in the SBS |  More list rows in the SBS |
 
 ## SnazzyBones-Min (minimalist)
 
@@ -19,7 +25,7 @@ It comes in two flavors:
 
 Screenshots to come.
 
-## Inspiration and Credit
+# Inspiration and Credit
 
 SnazzyBones is based on two great themes:
 - [SNAZZY](https://themes.rockbox.org/index.php?themeid=3627&target=cowond2) by Chris Graves
