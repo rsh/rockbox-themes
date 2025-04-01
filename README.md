@@ -9,10 +9,9 @@ It comes in two flavors:
 
 |  Max     | Min      |
 |------------|-------------|
+| Better for beginners to Rockbox | Better for people experienced with Rockbox |
 | More clutter | Less clutter  |
-|------------|-------------|
 | More context | Less context   |
-|------------|-------------|
 | Fewer list rows in the SBS |  More list rows in the SBS |
 
 ## SnazzyBones-Min (minimalist)
