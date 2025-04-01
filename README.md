@@ -1,24 +1,27 @@
-# SNAZZYBONES Rockbox theme
+# SnazzyBones Rockbox theme
 
 A simple, low-stimulus theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
 
 It comes in two flavors:
-- SNAZZYBONES-max (maximalist)
-- SNAZZYBONES-min (minimalist)
+- SnazzyBones-Max (maximalist)
+- SnazzyBones-Min (minimalist)
 
-## SNAZZYBONES-min (minimalist)
+
+
+
+## SnazzyBones-Min (minimalist)
 
 | SBS      | WPS      |
 |------------|-------------|
 | <img src="screenshots/min-sbs.png"> | <img src="screenshots/min-wps.png"> | 
 
-## SNAZZYBONES-max (maximalist)
+## SnazzyBones-Max (maximalist)
 
 Screenshots to come.
 
 ## Inspiration and Credit
 
-SNAZZYBONES is based on two great themes:
+SnazzyBones is based on two great themes:
 - [SNAZZY](https://themes.rockbox.org/index.php?themeid=3627&target=cowond2) by Chris Graves
 - [BONES](https://themes.rockbox.org/index.php?themeid=3579&target=cowond2) by Chuck Lardo
 
