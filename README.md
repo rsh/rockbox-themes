@@ -1,8 +1,6 @@
-# Rockbox Themes
+# SNAZZYBONES Rockbox theme
 
-## SNAZZYBONES
-
-A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
+A theme for [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
 
 My goals for this theme are:
 - It is as **simple** and **calm** as possible.
