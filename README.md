@@ -14,15 +14,16 @@ It comes in two flavors:
 | More clutter | Less clutter  |
 | Fewer list rows in the SBS |  More list rows in the SBS |
 
-## SnazzyBones-Min (minimalist)
+
+
+## Screenshots
+
+### SnazzyBones-Min
 
 | SBS      | WPS      |
 |------------|-------------|
 | <img src="screenshots/min-sbs.png"> | <img src="screenshots/min-wps.png"> | 
 
-## SnazzyBones-Max (maximalist)
-
-Screenshots to come.
 
 # Inspiration and Credit
 
@@ -48,7 +49,7 @@ Taking screenshots from the Rockbox simulator:
 
 # TODO
 
-- [ ] Put screenshots in the README.
+- [ ] Work on Max, add screenshots
 - [ ] Once the theme stabilizes, submit it to the Rockbox website.
 - [ ] The smallest text in the theme is fuzzy. Find an alternative font to replace 15-VictorMono that looks sharper, doesn't require anti-aliasing at such a small size.
 
