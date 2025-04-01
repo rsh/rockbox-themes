@@ -7,11 +7,11 @@ It comes in two flavors:
 - SnazzyBones-Min (minimalist)
 
 
-|  Max     | Min      |
+|  SnazzyBones-Max     | SnazzyBones-Min      |
 |------------|-------------|
-| Better for beginners to Rockbox | Better for people experienced with Rockbox |
-| More clutter | Less clutter  |
+| Better for beginners to Rockbox | Better for people more experienced with Rockbox |
 | More context | Less context   |
+| More clutter | Less clutter  |
 | Fewer list rows in the SBS |  More list rows in the SBS |
 
 ## SnazzyBones-Min (minimalist)
