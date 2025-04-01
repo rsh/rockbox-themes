@@ -33,7 +33,7 @@ SnazzyBones is based on two great themes:
 
 This theme's font is [Victor Mono](https://rubjo.github.io/victor-mono/), by Rune Bjørnerås.
 
-See `LICENSES.md` for more information.
+See `3P-LICENSES.md` for more information.
 
 ## Installation
 
