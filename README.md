@@ -27,6 +27,11 @@ SNAZZYBONES is based on two great themes:
 
 See `LICENSES.md` for more information.
 
+# Misc
+
+Taking screenshots from the Rockbox simulator:
+1. Take a screenshot of the whole simulator window,
+1. Run `magick input.png -crop 483x363+22+56 output.png`
 
 # TODO
 
