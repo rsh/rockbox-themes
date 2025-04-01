@@ -2,28 +2,30 @@
 
 ## SNAZZYBONES
 
-A theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
-
-My goals for this theme are:
-- It is as **simple** and **calm** as possible.
-- The "Now Playing" screen is especially **simple** and **calm**. When listening, it is the listener's refuge. It should not even include the current time.
-
-**Simple**: include only what is necessary, laid out in the cleanest possible way.  
-**Calm**: Animation and movement should be minimized.
-
-It comes in two flavors: SNAZZYBONES and SNAZZYBONES-min (minimalist). The main difference is that SNAZZYBONES uses the SBS from SNAZZY, and SNAZZYBONES-min uses the SBS from BONES.
+**SNAZZYBONES-min**
+| SBS      | WPS      |
+|------------|-------------|
+| <img src="screenshots/min-sbs.png"> | <img src="screenshots/min-wps.png"> | 
 
 
-## Installation
+A minimalist, low-stimulus theme for the [Rockbox](https://en.wikipedia.org/wiki/Rockbox) targeting 320x240 screens. I use it on my iPod 5.5G.
 
-1. [Install Rockbox](https://www.rockbox.org/download/)
-1. Download this repository and move the contents of `dot-rockbox` into the `.rockbox` directory on your music player.
+
+It comes in two flavors:
+- SNAZZYBONES-max (maximalist)
+- SNAZZYBONES-min (minimalist).
 
 ## Inspiration and Credit
 
 SNAZZYBONES is based on two great themes:
 - [SNAZZY](https://themes.rockbox.org/index.php?themeid=3627&target=cowond2) by Chris Graves
 - [BONES](https://themes.rockbox.org/index.php?themeid=3579&target=cowond2) by Chuck Lardo
+
+
+## Installation
+
+1. [Install Rockbox](https://www.rockbox.org/download/)
+1. Download this repository and move the contents of `dot-rockbox` into the `.rockbox` directory on your music player.
 
 See `LICENSES.md` for more information.
 
