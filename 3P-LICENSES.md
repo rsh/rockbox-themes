@@ -1,4 +1,4 @@
-# Licenses
+# Third-party Licenses
 
 ## SNAZZY
 
