@@ -49,7 +49,7 @@
 #
 #__Track Number
 %Vl(mainDisplay,30,40,120,-,2)
-%alTRACK %in
+%al%?in<TRACK %in|>
 #
 #__Shuffle
 %Vl(mainDisplay,-110,40,80,-,2)
