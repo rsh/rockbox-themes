@@ -44,12 +44,8 @@
 
 #------------- Status Bar Layer -----------#
 
-#__Username - Max 8 characters anything more will scroll
-%V(20,8,64,17,3)
-%al%sROCKBOX
-
 #__Hold
-%V(90,8,81,17,3)
+%V(8,4,81,17,3)
 %?mh<%acLOCKED%Vs(invert)|>
 
 #__Repeat
