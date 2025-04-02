@@ -64,9 +64,9 @@
 %Vl(mainDisplay,30,90,260,-,3)
 %s%t(6)%ia;%s%t(6)%id
 #
-#__File Type
+#__Year
 %Vl(mainDisplay,30,120,60,-,2)
-%?fc<MP1|MP2|MP3|AIFF|WAV|VORBIS|FLAC|MPC|A52|WAVPAC|ALAC|AAC|SHORTEN|SID|ADX|NSF|SPEEX|SPC|APE|WMA|?>
+%al%ss(0,4,%iy)
 #
 #__Repeat
 %Vl(mainDisplay,170,120,100,-,2)
