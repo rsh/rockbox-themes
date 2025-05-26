@@ -61,11 +61,11 @@
 #
 #__Artist
 %Vl(mainDisplay,30,70,260,-,3)
-%s%ia
+%ia
 #
 #__Album
 %Vl(mainDisplay,30,97,260,-,3)
-%s%id
+%id
 #
 #__Year
 %Vl(mainDisplay,30,125,60,-,2)

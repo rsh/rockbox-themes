@@ -77,7 +77,7 @@
 
 #__Title
 %Vl(MainDisplay,20,25,215,30,5)
-%al%s%?cs<Main Menu|%?Lt<%Lt>>
+%al%?cs<Main Menu|%?Lt<%Lt>>
 
 #__QuickScreen
 %Vl(Quickscreen,20,25,215,30,5)
@@ -92,29 +92,8 @@
 %dr(0,0,280,1)
 
 #__UI Viewport
-%Vi(menuViewport,20,69,280,130,1)
+%Vi(menuViewport,20,69,280,-,1)
 
-#__Bottom Line
-%Vl(MainDisplay,20,200,280,1,-)
-%dr(0,0,280,1)
-
-#__Play/Pause Icons
-%Vl(MainDisplay,20,214,21,11,-)
-%?mp<%xd(PBI,1)|%xd(PBI,2)|%xd(PBI,3)|%xd(PBI,4)|%xd(PBI,5)>
-
-#__Now Playing
-%Vl(curInfo,43,211,234,20,3)
-%ac%s%?ia<%ia - %it|%fn>
-
-#__Progress Bar
-%Vl(curInfo,-35,211,15,15,-)
-%ar%?if(%px, >, 8)<%?if(%px, >,17)<%?if(%px, >, 25)<%?if(%px, >, 33)<%?if(%px, >, 42)<%?if(%px, >, 50)<%?if(%px, >, 58)<%?if(%px, >, 67)<%?if(%px, >, 75)<%?if(%px, >, 83)<%?if(%px, >, 92)<%xd(Pl)|%xd(Pk)>|%xd(Pj)>|%xd(Pi)>|%xd(Ph)>|%xd(Pg)>|%xd(Pf)>|%xd(Pe)>|%xd(Pd)>|%xd(Pc)>|%xd(Pb)>|%xd(Pa)>
-
-#__Next Up
-%Vl(nextInfo,42,211,22,20,3)
-%ac→%Vs(invert)
-%Vl(nextInfo,64,211,235,20,3)
-%ac%s%?Ia<%Ia%?It< - %It>|%Fn> %Vs(invert)
 
 #----------- Quick Screen Layer -----------#
 
