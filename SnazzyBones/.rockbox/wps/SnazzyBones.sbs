@@ -45,26 +45,26 @@
 #------------- Status Bar Layer -----------#
 
 #__Hold
-%V(8,4,81,17,3)
+%V(8,2,81,17,3)
 %?mh<%acLOCKED%Vs(invert)|>
 
 #__Repeat
-%V(220,11,21,12,-)
+%V(220,5,21,12,-)
 %?and(%if(%ps, =, 1),%or(%if(%mm, =, 1),%if(%mm, >, 1)),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(shuffle,%ps)>
 %?and(%if(%ps, =, 1),%or(%if(%mm, =, 1),%if(%mm, >, 1)),%or(%if(%fc, =, 4),%if(%fc, =, 5),%if(%fc, =, 7),%if(%fc, =, 11),%if(%fc, =, 13)))<%xd(shuffle,%ps)>
 %?and(%if(%ps, !=, 1),%if(%mm, >, 1),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(repeat,%mm,-1)>
 
 #__Shuffle
-%V(192,11,21,11,-)
+%V(192,5,21,11,-)
 %?and(%if(%ps, =, 1),%if(%mm, >, 1),%or(%if(%fc, =, 4),%if(%fc, =, 5),%if(%fc, =, 7),%if(%fc, =, 11),%if(%fc, =, 13)))<%xd(repeat,%mm)>
 %?and(%if(%ps, =, 1),%if(%mm, >, 1),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(repeat,%mm,-1)>
 
 #__Battery Text
-%V(265,8,35,20,3)
+%V(265,2,35,20,3)
 %ar%bl%%
 
 #__Battery Icon
-%V(248,11,21,11,-)
+%V(248,5,21,11,-)
 %?bp<%xd(Hl)|%?bl<%xd(Ha)|%xd(Hb)|%xd(Hc)|%xd(Hd)|%xd(He)|%xd(Hf)|%xd(Hg)|%xd(Hh)|%xd(Hi)|%xd(Hj)|%xd(Hk)>>
 
 #------------ Main Screen Layer -----------#
@@ -83,9 +83,14 @@
 %Vl(Quickscreen,20,25,215,30,5)
 %alQuick Screen
 
-#__Time / Day
+
+#__ Day
+%Vl(MainDisplay,-85,18,63,26,3)
+%ar%t(5)%cb %cd
+
+#__Time
 %Vl(MainDisplay,-85,34,63,26,3)
-%ar%t(5)%?cf<%cH:%cM|%?cl<1|2|3|4|5|6|7|8|9|10|11|12>:%cM%cp>;%ar%t(5)%cb %cd
+%ar%t(5)%?cf<%cH:%cM|%?cl<1|2|3|4|5|6|7|8|9|10|11|12>:%cM%cp>
 
 #__Top Line
 %Vl(MainDisplay,20,57,280,1,-)
