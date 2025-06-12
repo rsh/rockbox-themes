@@ -49,13 +49,13 @@
 %?mh<%acLOCKED%Vs(invert)|>
 
 #__Repeat
-%V(220,5,21,12,-)
+%V(220,4,21,12,-)
 %?and(%if(%ps, =, 1),%or(%if(%mm, =, 1),%if(%mm, >, 1)),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(shuffle,%ps)>
 %?and(%if(%ps, =, 1),%or(%if(%mm, =, 1),%if(%mm, >, 1)),%or(%if(%fc, =, 4),%if(%fc, =, 5),%if(%fc, =, 7),%if(%fc, =, 11),%if(%fc, =, 13)))<%xd(shuffle,%ps)>
 %?and(%if(%ps, !=, 1),%if(%mm, >, 1),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(repeat,%mm,-1)>
 
 #__Shuffle
-%V(192,5,21,11,-)
+%V(192,4,21,11,-)
 %?and(%if(%ps, =, 1),%if(%mm, >, 1),%or(%if(%fc, =, 4),%if(%fc, =, 5),%if(%fc, =, 7),%if(%fc, =, 11),%if(%fc, =, 13)))<%xd(repeat,%mm)>
 %?and(%if(%ps, =, 1),%if(%mm, >, 1),%or(%if(%fc, !=, 4),%if(%fc, !=, 5),%if(%fc, !=, 7),%if(%fc, !=, 11),%if(%fc, !=, 13)))<%xd(repeat,%mm,-1)>
 
@@ -64,7 +64,7 @@
 %ar%bl%%
 
 #__Battery Icon
-%V(248,5,21,11,-)
+%V(248,4,21,11,-)
 %?bp<%xd(Hl)|%?bl<%xd(Ha)|%xd(Hb)|%xd(Hc)|%xd(Hd)|%xd(He)|%xd(Hf)|%xd(Hg)|%xd(Hh)|%xd(Hi)|%xd(Hj)|%xd(Hk)>>
 
 #------------ Main Screen Layer -----------#
