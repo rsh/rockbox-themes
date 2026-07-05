@@ -64,7 +64,7 @@
 %ar%bl%%
 
 #__Battery Icon
-%V(248,5,21,11,-)
+%V(248,4,21,11,-)
 %?bp<%xd(Hl)|%?bl<%xd(Ha)|%xd(Hb)|%xd(Hc)|%xd(Hd)|%xd(He)|%xd(Hf)|%xd(Hg)|%xd(Hh)|%xd(Hi)|%xd(Hj)|%xd(Hk)>>
 
 #------------ Main Screen Layer -----------#
