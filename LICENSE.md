@@ -1,4 +1,4 @@
-SnazzyBones © 2025 by Rayhan Hasan is licensed under CC BY-SA 4.0 
+SnazzyBones © 2026 by Rayhan Hasan is licensed under CC BY-SA 4.0 
 https://creativecommons.org/licenses/by-sa/4.0/
 
 See `3P-LICENSES.md` for license information for third-party resources used in this repo.
